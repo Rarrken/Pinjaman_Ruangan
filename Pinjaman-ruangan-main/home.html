@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eRuang - Sistem Peminjaman Ruangan Nurul Fikri</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold">eRuang - Sistem Peminjaman Ruangan Nurul Fikri</h1>
+            <nav class="space-x-4">
+                <a href="home.html" class="text-blue-500 hover:underline">Home</a>
+                <a href="fasilitas.html" class="text-gray-700 hover:underline">Fasilitas</a>
+                <a href="booking.html" class="text-gray-700 hover:underline">Booking</a>
+                <a href="#" class="text-gray-700 hover:underline">Berita</a>
+                <a href="#" class="text-gray-700 hover:underline">Tentang Kami</a>
+            </nav>
+            <div class="flex space-x-4 items-center">
+                <input type="text" placeholder="Search" class="border rounded-lg px-2 py-1">
+                <a href="login.html" class="text-blue-500 hover:underline">Login</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8 grid grid-cols-4 gap-4">
+        <!-- Sidebar Kategori Ruangan -->
+        <aside class="col-span-1 bg-white shadow rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-4">Kategori Ruangan</h3>
+            <ul class="space-y-2">
+                <li><a href="aula.html" class="text-blue-500 hover:underline">Aula</a></li>
+                <li><a href="rapat.html" class="text-blue-500 hover:underline">Ruang Rapat</a></li>
+                <li><a href="seminar.html" class="text-blue-500 hover:underline">Ruang Seminar</a></li>
+                <li><a href="lab.html" class="text-blue-500 hover:underline">Lab Komputer</a></li>
+            </ul>
+        </aside>
+
+        <!-- Content Area -->
+        <div class="col-span-3 space-y-8">
+            <!-- Tentang eRuang -->
+            <section class="bg-white shadow rounded-lg p-6">
+                <h2 class="text-2xl font-bold mb-4">Tentang eRuang</h2>
+                <div class="grid grid-cols-3 gap-4">
+                    <div>
+                        <h3 class="font-semibold">Fasilitas Terbaru</h3>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="h-24 bg-gray-200 rounded-lg"></div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold">Cara Pesan Ruangan</h3>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="h-24 bg-gray-200 rounded-lg"></div>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold">Pembayaran yang Nyaman</h3>
+                        <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <div class="h-24 bg-gray-200 rounded-lg"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Rekomendasi Ruangan -->
+            <section class="bg-white shadow rounded-lg p-6">
+                <h2 class="text-2xl font-bold mb-4">Rekomendasi Ruangan</h2>
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="border rounded-lg p-4">
+                        <div class="h-32 bg-gray-200 rounded-lg mb-2"></div>
+                        <h3 class="font-semibold">Meeting Room Garuda</h3>
+                        <p class="text-sm text-gray-600">Kapasitas: 8 orang</p>
+                        <p class="text-blue-500 font-bold">Rp. 250K/Jam</p>
+                    </div>
+                    <div class="border rounded-lg p-4">
+                        <div class="h-32 bg-gray-200 rounded-lg mb-2"></div>
+                        <h3 class="font-semibold">Conference Room Nuri</h3>
+                        <p class="text-sm text-gray-600">Kapasitas: 2 orang</p>
+                        <p class="text-blue-500 font-bold">Rp. 500K/Jam</p>
+                    </div>
+                    <div class="border rounded-lg p-4">
+                        <div class="h-32 bg-gray-200 rounded-lg mb-2"></div>
+                        <h3 class="font-semibold">Aula Cendrawasih</h3>
+                        <p class="text-sm text-gray-600">Kapasitas: 1 orang</p>
+                        <p class="text-blue-500 font-bold">Rp. 1.000K/Jam</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 text-center py-4 mt-8">
+        <p class="text-gray-600 text-sm">Developed By Mahasiswa STT-NF &copy; 2022</p>
+    </footer>
+</body>
+</html>

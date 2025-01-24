@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi User</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="w-full max-w-md bg-white p-6 rounded shadow-lg">
+        <h1 class="text-2xl font-bold text-center mb-6">Registrasi User</h1>
+
+        <form class="space-y-4">
+            <div>
+                <label for="nama" class="block font-semibold">Nama Lengkap:</label>
+                <input type="text" id="nama" class="w-full border rounded px-3 py-2" placeholder="Masukkan Nama Lengkap">
+            </div>
+
+            <div>
+                <label for="email" class="block font-semibold">Email:</label>
+                <input type="email" id="email" class="w-full border rounded px-3 py-2" placeholder="Masukkan Email">
+            </div>
+
+            <div>
+                <label for="username" class="block font-semibold">Username:</label>
+                <input type="text" id="username" class="w-full border rounded px-3 py-2" placeholder="Masukkan Username">
+            </div>
+
+            <div>
+                <label for="password" class="block font-semibold">Password:</label>
+                <input type="password" id="password" class="w-full border rounded px-3 py-2" placeholder="Masukkan Password">
+            </div>
+
+            <div>
+                <label for="cek-password" class="block font-semibold">Cek Password:</label>
+                <input type="password" id="cek-password" class="w-full border rounded px-3 py-2" placeholder="Ulangi Password">
+            </div>
+
+            <div class="text-center">
+                <button type="submit" class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">Daftar</button>
+            </div>
+        </form>
+
+        <footer class="text-center mt-6">
+            <p class="text-sm text-gray-500">Develop By Mahasiswa STT-NF @2021</p>
+        </footer>
+    </div>
+</body>
+</html>
